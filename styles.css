@@ -1,0 +1,192 @@
+/* Reset default margin, padding, and border — do not change */
+
+body,
+header,
+h1,
+h2,
+p,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Global page styles (modified as required) */
+
+body {
+    background-color: #0e1726;
+    /* CHANGED background color */
+    color: #1b2a41;
+    /* Base font color for contrast in light cards */
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    /* CHANGED font style/type */
+    line-height: 26px;
+    /* CHANGED line-height (px) */
+}
+
+
+/* Header */
+
+header {
+    background-color: #14233a;
+    /* Deep navy header for contrast */
+    color: #ffffff;
+    /* CHANGED font color */
+    text-align: center;
+    /* CHANGED text alignment */
+    padding: 24px;
+    /* CHANGED padding */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+    /* CHANGED box-shadow */
+}
+
+header .subtitle {
+    font-size: 14px;
+    /* CHANGED font size (px) */
+    opacity: 0.9;
+    margin-top: 6px;
+}
+
+
+/* Main container sections */
+
+main section {
+    max-width: 900px;
+    /* CHANGED width property/value */
+    margin: 24px auto;
+    /* CHANGED margins */
+    padding: 24px;
+    /* CHANGED padding */
+    background-color: #ffffff;
+    /* Card background */
+    border-radius: 16px;
+    /* CHANGED border-radius */
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    /* CHANGED box-shadow */
+}
+
+
+/* Headings */
+
+h1 {
+    font-size: 28px;
+    /* CHANGED font size (px) */
+    line-height: 34px;
+    /* CHANGED line-height (px) */
+    margin-bottom: 4px;
+}
+
+h2 {
+    color: #0d1b2a;
+    /* CHANGED font color */
+    font-size: 22px;
+    /* CHANGED font size (px) */
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    /* CHANGED font size (px) */
+    margin: 14px 0 8px 0;
+    color: #213b5a;
+}
+
+
+/* Paragraphs */
+
+p {
+    font-size: 16px;
+    /* CHANGED font size (px) */
+    color: #2b3a55;
+    /* CHANGED font color */
+    margin-bottom: 14px;
+}
+
+
+/* Lists */
+
+ul.highlights {
+    list-style: square inside;
+    /* CHANGED list-style property/value */
+    font-size: 15px;
+    /* CHANGED font size (px) */
+    color: #2b3a55;
+    padding: 10px 12px;
+    /* CHANGED padding */
+    background: #f4f7fb;
+    border-radius: 12px;
+    /* CHANGED border-radius */
+    margin-top: 6px;
+    /* CHANGED margins */
+}
+
+
+/* Figures and images */
+
+figure.photo {
+    margin: 14px 0 8px 0;
+    /* CHANGED margins */
+    text-align: center;
+    /* CHANGED text alignment */
+}
+
+figure.photo img {
+    display: block;
+    width: 100%;
+    /* Responsive width */
+    max-width: 900px;
+    /* Keep sharpness for large screens */
+    height: auto;
+    border-radius: 14px;
+    /* CHANGED border-radius */
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+    /* CHANGED box-shadow */
+}
+
+figcaption.apa {
+    font-size: 12px;
+    /* CHANGED font size (px) */
+    color: #4a5b75;
+    /* CHANGED font color */
+    margin-top: 8px;
+    /* CHANGED margins */
+    line-height: 18px;
+    /* CHANGED line-height (px) */
+}
+
+
+/* Footer */
+
+footer {
+    max-width: 900px;
+    margin: 24px auto 48px auto;
+    /* CHANGED margins */
+    padding: 20px;
+    /* CHANGED padding */
+    background: #ffffff;
+    border-radius: 16px;
+    /* CHANGED border-radius */
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    /* CHANGED box-shadow */
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer .resources {
+    list-style: disc inside;
+    /* CHANGED list-style */
+    color: #2b3a55;
+    /* CHANGED font color */
+    font-size: 14px;
+    /* CHANGED font size (px) */
+}
+
+footer .copyright {
+    margin-top: 10px;
+    font-size: 12px;
+    /* CHANGED font size (px) */
+    color: #4a5b75;
+}
